@@ -1,9 +1,18 @@
-#table_projetos a{
-
-    text-decoration: none;
-    color: blueviolet;
-}
 #table_projetos{
 
     font-size: 15px;
+    padding: 5%;
+}
+p, h1, td, tr{
+    color:white
+
+}
+a{
+    text-decoration: none;
+    color:blue
+
+}
+a:hover{
+
+    text-decoration:underline;
 }

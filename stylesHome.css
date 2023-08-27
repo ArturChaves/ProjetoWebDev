@@ -1,18 +1,18 @@
 .teste{
 
-    color : black
+    color : white
 }
 .links a{
     text-decoration: none;
     font-family:Arial, Helvetica, sans-serif;
     font-size: 20px;
-    color : black
+    color : white
 
 
 
 }
 .links div a:hover{   
-    transition: 0.05s;
+    transition: 0.2s;
     padding: 10px;
     font-size: 220%;
     
@@ -20,10 +20,24 @@
 
 #titulo{
 
-    color:black
+    color:white
 }
 
 #link{
     text-decoration: none;
     color: blueviolet;
+}
+a, p{
+    color:white;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+body{
+    background-color: #202020;
+}
+#Projetos button{
+    border: 0;
+    background-color: blue;
 }
