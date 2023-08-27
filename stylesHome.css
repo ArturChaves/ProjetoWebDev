@@ -1,0 +1,29 @@
+.teste{
+
+    color : black
+}
+.links a{
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color : black
+
+
+
+}
+.links div a:hover{   
+    transition: 0.05s;
+    padding: 10px;
+    font-size: 220%;
+    
+}
+
+#titulo{
+
+    color:black
+}
+
+#link{
+    text-decoration: none;
+    color: blueviolet;
+}
