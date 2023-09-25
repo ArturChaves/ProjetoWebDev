@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/Atividades/adivinhação/style.css" />
+  </head>
+  <body style="background-color: lightseagreen;">
+    <div class="container">
+      <div class="cabeçalho">
+        <h1>JOGO DE ADIVINHAÇÃO</h1>
+        <h3>Consegue adivinhar o número sorteado?</h3>
+      </div>
+      <div class="resposta">
+        <h1 id="devolução"></h1>
+      </div>
+      <div class="pergunta">
+        <h4>Tente adivinhar o número que escolhido</h4>
+        <input type="number" id="input" placeholder="Tente sua sorte..."/>
+        <input type="button" id="botão" value="Adivinhar" onclick="buscar_numero" />
+      </div>
+    </div>
+
+    <script
+      src="/Atividades/adivinhação/script.js"
+      type="text/javascript"
+    ></script>
+  </body>
+</html>
