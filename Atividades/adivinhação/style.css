@@ -4,7 +4,15 @@
     align-items: center;
 }
 .resposta{
+    display: flex;  
     border: 5px solid lightskyblue;
-    width: 20%;
-    height: 70px;
+    width: 30%;
+    height: 30%;
+}
+#resposta{
+    display: flex;
+    justify-content:  center;
+   margin: 0;
+   padding: 0;
+   width: 100%;
 }

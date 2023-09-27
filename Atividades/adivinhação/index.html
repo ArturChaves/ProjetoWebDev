@@ -6,20 +6,30 @@
     <title>Document</title>
     <link rel="stylesheet" href="/Atividades/adivinhação/style.css" />
   </head>
-  <body style="background-color: lightseagreen;">
+  <body style="background-color: lightseagreen">
     <div class="container">
       <div class="cabeçalho">
         <h1>JOGO DE ADIVINHAÇÃO</h1>
         <h3>Consegue adivinhar o número sorteado?</h3>
       </div>
       <div class="resposta">
-        <h1 id="devolução"></h1>
+        <h1 id="resposta"></h1>
       </div>
       <div class="pergunta">
         <h4>Tente adivinhar o número que escolhido</h4>
-        <input type="number" id="input" placeholder="Tente sua sorte..."/>
-        <input type="button" id="botão" value="Adivinhar" onclick="buscar_numero" />
+        <input type="number" id="input" placeholder="Teste sua sorte..." />
+        <input
+          type="button"
+          id="botão"
+          value="Adivinhar"
+          onclick="buscar_numero(), tentativas()"
+        />
       </div>
+     <div clas="tentativas">
+        <h4>Números que já foram testados:</h1>
+        <p id="tentativas"></p>
+     </div>
+      
     </div>
 
     <script
