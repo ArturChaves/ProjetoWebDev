@@ -23,7 +23,7 @@ function buscar_numero(x){
 }
 function tentativas(){
     let valor = parseInt(document.getElementById("input").value);
-    lista += valor + ','
+    lista += valor + ', '
     document.getElementById('tentativas').innerHTML =  lista 
 
 
